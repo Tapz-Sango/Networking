@@ -16,23 +16,42 @@ Small Enterprise Network
 - Network troubleshooting
 
 ## Troubleshooting steps:
-DEVICE
-  ↓
-IP
-  ↓
-SUBNET
-  ↓
-GATEWAY
-  ↓
-ROUTE
-  ↓
-DNS
-  ↓
-PORT
-  ↓
-FIREWALL
-  ↓
-SERVICE
+
+
+                 Problem
+                    ↓
+          Is the device connected?
+                    ↓
+            Does it have an IP?
+                    ↓
+        Is the IP/subnet correct?
+                    ↓
+          Is the gateway correct?
+                    ↓
+       Can it reach the gateway?
+                    ↓
+        Can it reach the destination?
+                    ↓
+           Is routing correct?
+                    ↓
+              Is DNS working?
+                    ↓
+           Is the port accessible?
+                    ↓
+            Is firewall allowing it?
+                    ↓
+            Is the service running?
+
+1. Physical / interface
+2. IP address
+3. Subnet
+4. Default gateway
+5. Local connectivity
+6. Routing
+7. DNS
+8. Ports
+9. Firewall
+10. Application/service
 
 ## Topology
 
