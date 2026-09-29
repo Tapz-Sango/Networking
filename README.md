@@ -15,3 +15,33 @@ Small Enterprise Network
 - DNS concepts
 - Network troubleshooting
 
+## Troubleshooting steps:
+DEVICE
+  ↓
+IP
+  ↓
+SUBNET
+  ↓
+GATEWAY
+  ↓
+ROUTE
+  ↓
+DNS
+  ↓
+PORT
+  ↓
+FIREWALL
+  ↓
+SERVICE
+
+## Topology
+
+                         ROUTER
+                       /    |    \
+                      /     |     \
+                     /      |      \
+                 Switch1   Switch2   Switch3
+                    |         |         |
+                  USERS     SERVERS   MANAGEMENT
+                 /     \       |         |
+               PC1     PC2   Server     Admin PC
